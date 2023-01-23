@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'cocogose-regular';
+    src: url('src/assets/fonts/Cocogoose-Compressed-Regular-trial.ttf');
+  }
+
+  @font-face {
+    font-family: 'cocogose-light';
+    src: url('src/assets/fonts/Cocogoose-Compressed-Light-trial.ttf');
+  }
+
+  @font-face {
+    font-family: 'cocogose-semilight';
+    src: url('src/assets/fonts/Cocogoose-Compressed-Semilight-trial.ttf');
+  }
+
+  @font-face {
+    font-family: 'cocogose-thin';
+    src: url('src/assets/fonts/Cocogoose-Compressed-Thin-trial.ttf');
+  }
+
+  @font-face {
+    font-family: 'cocogose-narrow-semilight';
+    src: url('src/assets/fonts/Cocogoose-Narrow-Semilight-trial.ttf');
+  }

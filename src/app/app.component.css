@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: -10px;
+  }
+
+  i{
+    padding: 5px;
+  }
+
+  .card{ 
+    margin: 30px 0px;
+  }
+  
+  .card .card-content{  
+    padding: 80px;
+    margin: 0 auto;
+    font-family: 'cocogose-thin';
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .half{
+    flex: 50%;
+  }
+
+  .card-content .content-body{
+    padding-top: 20px;
+  }
+
+  .card-content .content-footer{
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+
+  .content-header .title{
+    font-size: 60px;
+    font-family: 'cocogose-semilight';
+  }
+
+  .content-header .subtitle{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 20px;
+  }
+
+  .content-body .icon-label{
+    padding-bottom: 5px;
+  }
+
+  .icon-label .icon{
+    padding-right: 2px;
+    display:inline;
+  }
+
+  .icon-label .itext{
+    display: inline;
+    font-size: 18px;
+  }
+
+  .icon-label .itext-sm{
+    font-family: 'cocogose-semilight';
+    display: inline;
+    font-size: 15px;
+    padding-right: 20px;
+  }
+
+  .content-body .text{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .content-body .icon-list{
+    padding-top: 20px;
+  }
+
+  .content-body .card-body1{ 
+    padding-top: 10px;
+    padding-right: 20px;
+    flex: 50%;
+  }
+  .card-body1 .title{
+    font-size: 20px;
+    font-style: italic;
+    color:white;
+    font-family: 'cocogose-semilight';
+    margin-bottom: 5px;
+  }
+
+  .card-body1 .body{
+    width: 350px;
+    padding: 20px;
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .body .container{
+    text-align: center;
+    align-items: center;
+    border: 2px solid rgba(18, 88, 107, 0.519);
+    font-family: 'cocogose-semilight';
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .body .text{
+    font-size: 17px;
+  }
+
+  .content-body .card-body2{
+    margin: 0 auto;
+    width: 85%;
+    padding: 20px;
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .card-body2 .title{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'cocogose-semilight';
+  }
+
+
+  .items .item{
+    text-align: left;
+    flex:33%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .item .title{
+    font-size: 15px;  
+    margin-right: 30px;
+    display:inline;
+  }
+
+  .item .description{
+    display:inline;
+  }
+
+.row {  
+  display: flex;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.left {  
+    margin-left: 20px;
+    border-radius: 30px 0px 0px 30px;
+  }
+
+.right {  
+    margin-right: 20px;
+    border-radius: 0px 30px 30px 0px;
+  } 
+
+  .blue {
+    color :white;
+    background: rgb(25,56,219);
+    background: linear-gradient(35deg, rgba(25,56,219,1) 0%, rgb(31, 143, 218) 76%, rgba(14, 120, 124, 0.686) 100%); 
+  }
+
+  .lightblue {
+    color: black;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(35deg, rgba(219, 221, 249, 0.623) 0%, rgba(169, 218, 249, 0.319) 76%, rgba(169, 246, 249, 0.648) 100%); 
+  }
+
+
+
+  @media screen and (max-width: 700px) {
+
+    .card .card-content{      
+      padding: 20px;
+    }
+
+     .content-header .title{
+      font-size: 40px;
+    }
+
+    .content-body .icon-label{
+      flex-direction: column;
+    }
+    
+     .row {
+      flex-direction: column;
+    }    
+  }
+
+  input[type=text] {
+    border: none;
+    font-size: 13px;
+    font-family: 'cocogose-semilight';
+    background: rgb(255, 255, 255);
+    border-radius: .25rem;
+    margin-right: 15px;
+    padding: .75rem;
+    margin-bottom: 20px;
+  }
+
+  input[type=submit]{
+    width: 150px;
+    font-family: 'cocogose-semilight';
+    border: none;
+    background: rgb(216, 229, 235);
+    border: 1px solid blue;
+    border-radius: .25rem;
+    padding: .75rem;
+  }
+
+
