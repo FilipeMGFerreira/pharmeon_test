@@ -43,9 +43,9 @@
   }
 
   .content-header .subtitle{
-    padding-top: 20px;
     margin: 0 auto;
     width: 50%;
+    padding-top: 20px;
     font-size: 20px;
   }
 
@@ -116,7 +116,7 @@
 
   .content-body .card-body2{
     margin: 0 auto;
-    width: 85%;
+    width: 80%;
     padding: 20px;
     color:black;
     background-color: white;
@@ -185,7 +185,8 @@
 
   @media screen and (max-width: 700px) {
 
-    .card .card-content{      
+    .card .card-content{  
+      text-align: left;    
       padding: 20px;
     }
 
@@ -193,10 +194,16 @@
       font-size: 40px;
     }
 
-    .content-body .icon-label{
-      flex-direction: column;
+    .content-header .subtitle{
+      margin: 0;
+      width: 100%;
     }
-    
+
+    .content-body .card-body2{
+      margin: 0;
+      width: 100%;
+    }
+
      .row {
       flex-direction: column;
     }    
